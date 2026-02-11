@@ -49,7 +49,7 @@ Z = linkage(subset, method='ward')
 fig = plt.figure(figsize=(12, 6))
 
 dendrogram(Z)
-plt.axhline(y=10, color='r', linestyle='--')
+plt.axhline(y=1.8, color='black', linestyle='--', linewidth=2)
 
 plt.title("News Articles Dendrogram")
 plt.xlabel("Articles")
