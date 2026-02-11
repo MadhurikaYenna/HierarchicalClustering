@@ -16,7 +16,7 @@ st.title("Hierarchical Clustering on Financial News")
 @st.cache_data
 def load_data():
     df1 = pd.read_csv(
-        "all_data.csv",
+        "all-data.csv",
         encoding='latin1',
         header=None
     )
